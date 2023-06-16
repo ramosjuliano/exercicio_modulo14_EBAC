@@ -1,0 +1,200 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-16T09:34:10.565Z",
+    "end": "2023-06-16T09:34:11.016Z",
+    "duration": 451,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4cd8eee2-2e0d-4e22-ba6a-62e81f451760",
+      "title": "",
+      "fullFile": "cypress/e2e/integration/exercicio-api.cy.js",
+      "file": "cypress/e2e/integration/exercicio-api.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bbc725ba-43ec-4792-8916-07b629d7bbc8",
+          "title": "Testes da Funcionalidade Usuários",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve validar contrato de usuários",
+              "fullTitle": "Testes da Funcionalidade Usuários Deve validar contrato de usuários",
+              "timedOut": null,
+              "duration": 148,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//TODO:",
+              "err": {},
+              "uuid": "0aabae9d-f823-4f26-b1ea-349900d171c6",
+              "parentUUID": "bbc725ba-43ec-4792-8916-07b629d7bbc8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve listar usuários cadastrados",
+              "fullTitle": "Testes da Funcionalidade Usuários Deve listar usuários cadastrados",
+              "timedOut": null,
+              "duration": 50,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//TODO:",
+              "err": {},
+              "uuid": "d5b094bd-91d9-44e4-ac2a-cb03a1d4cc42",
+              "parentUUID": "bbc725ba-43ec-4792-8916-07b629d7bbc8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve cadastrar um usuário com sucesso",
+              "fullTitle": "Testes da Funcionalidade Usuários Deve cadastrar um usuário com sucesso",
+              "timedOut": null,
+              "duration": 41,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//TODO:",
+              "err": {},
+              "uuid": "2b0cac75-f679-4c20-85cd-5828e2e42f85",
+              "parentUUID": "bbc725ba-43ec-4792-8916-07b629d7bbc8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve validar um usuário com email inválido",
+              "fullTitle": "Testes da Funcionalidade Usuários Deve validar um usuário com email inválido",
+              "timedOut": null,
+              "duration": 44,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//TODO:",
+              "err": {},
+              "uuid": "eab9d778-7ba3-42a2-a62e-902463a5003f",
+              "parentUUID": "bbc725ba-43ec-4792-8916-07b629d7bbc8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve editar um usuário previamente cadastrado",
+              "fullTitle": "Testes da Funcionalidade Usuários Deve editar um usuário previamente cadastrado",
+              "timedOut": null,
+              "duration": 37,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//TODO:",
+              "err": {},
+              "uuid": "86e63b34-acb4-4062-a093-013bf28d40d2",
+              "parentUUID": "bbc725ba-43ec-4792-8916-07b629d7bbc8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve deletar um usuário previamente cadastrado",
+              "fullTitle": "Testes da Funcionalidade Usuários Deve deletar um usuário previamente cadastrado",
+              "timedOut": null,
+              "duration": 53,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//TODO:",
+              "err": {},
+              "uuid": "aae461da-39d8-42bf-9ae3-38e7388ada85",
+              "parentUUID": "bbc725ba-43ec-4792-8916-07b629d7bbc8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0aabae9d-f823-4f26-b1ea-349900d171c6",
+            "d5b094bd-91d9-44e4-ac2a-cb03a1d4cc42",
+            "2b0cac75-f679-4c20-85cd-5828e2e42f85",
+            "eab9d778-7ba3-42a2-a62e-902463a5003f",
+            "86e63b34-acb4-4062-a093-013bf28d40d2",
+            "aae461da-39d8-42bf-9ae3-38e7388ada85"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 373,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

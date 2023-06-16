@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-16T09:51:35.705Z",
+    "end": "2023-06-16T09:51:35.897Z",
+    "duration": 192,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2e8dfcd0-8b04-4883-bbd1-430a334ad015",
+      "title": "",
+      "fullFile": "cypress/e2e/integration/login.cy.js",
+      "file": "cypress/e2e/integration/login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "294c5506-01e6-4101-b820-4226ef26f5ba",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve fazer login com sucesso",
+              "fullTitle": "Login Deve fazer login com sucesso",
+              "timedOut": null,
+              "duration": 157,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.request({\n  method: 'POST',\n  url: 'login',\n  body: {\n    \"email\": \"fulano@qa.com\",\n    \"password\": \"teste\"\n  }\n}).then(response => {\n  expect(response.status).to.equal(200);\n  expect(response.body.message).to.equal('Login realizado com sucesso');\n  cy.log(response.body.authorization);\n});",
+              "err": {},
+              "uuid": "958ae5bb-19d7-48f9-a8ca-7c43b7ffca3f",
+              "parentUUID": "294c5506-01e6-4101-b820-4226ef26f5ba",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "958ae5bb-19d7-48f9-a8ca-7c43b7ffca3f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 157,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

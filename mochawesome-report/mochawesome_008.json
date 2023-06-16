@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-06-16T09:51:30.316Z",
+    "end": "2023-06-16T09:51:30.958Z",
+    "duration": 642,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "447c856f-7659-4596-b46d-de8b03200414",
+      "title": "",
+      "fullFile": "cypress/e2e/integration/exercicio-api.cy.js",
+      "file": "cypress/e2e/integration/exercicio-api.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0e302a93-bb67-4c6a-805c-8ef532636b55",
+          "title": "Testes da Funcionalidade Usuários",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve validar contrato de usuários",
+              "fullTitle": "Testes da Funcionalidade Usuários Deve validar contrato de usuários",
+              "timedOut": null,
+              "duration": 575,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.request('usuarios').then(response => {\n  return _usuarios.default.validateAsync(response.body);\n});",
+              "err": {
+                "message": "ValidationError: \"usuarios[0].email\" is not allowed",
+                "estack": "ValidationError: \"usuarios[0].email\" is not allowed",
+                "diff": null
+              },
+              "uuid": "737e01af-363b-4ba6-9b8d-aa706bd7f062",
+              "parentUUID": "0e302a93-bb67-4c6a-805c-8ef532636b55",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "737e01af-363b-4ba6-9b8d-aa706bd7f062"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 575,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
